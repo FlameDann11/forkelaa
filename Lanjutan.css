@@ -1,0 +1,28 @@
+h2 {
+  text-align: center;
+ border: solid black;
+  color: Blue;
+  padding: 0 6px 0 6px;
+  margin-top: 30px;
+  width: 60%;
+  
+}
+
+body {
+  background-color: slateblue;
+  text-align: center;
+}
+
+img {
+width: 150px;
+height: 150px;
+background-color: white;
+ border: solid 6px;
+ padding: 0 3px 0 3px;
+ border-radius: 150px;
+}
+
+.njay {
+  font-family: Sans-Serif;
+  margin-top: -2px;
+}

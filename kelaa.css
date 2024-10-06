@@ -1,0 +1,63 @@
+body {
+  background-color: purple;
+}
+
+h6 {
+  text-align: center;
+  margin: -1px;
+  margin-bottom: -12px;
+}
+.dann {
+font-size: 20px;
+text-align: center;
+color: white;
+border: 1px slateblue solid;
+border-radius: 4px;
+background-color: pink;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 20px;
+margin-left: 15px;
+margin-right: 15px;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.button {
+font-size: 14px;
+background-color: #FF0000; /* merah */
+box-shadow: 0 0 20px rgba(255, 0, 0, 1);
+padding: 10px 20px;
+margin-top: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.button:active {
+background-color: green;
+box-shadow: 15px 15px 15px green(255, 0, 0, 1);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.hai {
+  transform: rotate(13deg);
+  width: 130px;
+  height: 220px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border: white solid 2px;
+}
+
+.haii {
+  transform: rotate(-3deg);
+  width: 160px;
+  height: 220px;
+  margin-top: 230px;
+  margin-left: 20px;
+  border: white solid 2px;
+}
