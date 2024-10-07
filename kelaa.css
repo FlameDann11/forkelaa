@@ -45,6 +45,10 @@ background-color: green;
 box-shadow: 15px 15px 15px green(255, 0, 0, 1);
 }
 
+.hy {
+  display:flex;
+
+}
 .gambar1 {
   width:1px;
   height:5px;
