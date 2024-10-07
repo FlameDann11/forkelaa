@@ -45,16 +45,17 @@ background-color: green;
 box-shadow: 15px 15px 15px green(255, 0, 0, 1);
 }
 
-.hy {
-  display:flex;
-  flex-direction:flex-start;
+    .hy {
+            display: flex;
+            flex-direction: column; /* Susun gambar secara kolom */
+            align-items: flex-start; /* Rata kiri */
+        }
 
-}
-.gambar1 {
-  width:1px;
-  height:5px;
-}
-
+        .gambar1 {
+            width: 160px; /* Atur lebar gambar */
+            height: auto; /* Tinggi otomatis untuk menjaga proporsi */
+            margin-bottom: 10px; /* Jarak antara gambar */
+        }
 .hah {
   text-align:center;
 }
