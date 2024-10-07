@@ -39,6 +39,7 @@ cursor: pointer;
 
 #button:clicked {
   background-color: green;
+}
 #button:active {
 background-color: green;
 box-shadow: 15px 15px 15px green(255, 0, 0, 1);
