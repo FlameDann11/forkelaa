@@ -56,3 +56,7 @@ box-shadow: 15px 15px 15px green(255, 0, 0, 1);
             height: auto; /* Tinggi otomatis untuk menjaga proporsi */
             margin-bottom: 30px; /* Jarak antara gambar */
         }
+
+.hah {
+  text-align:center;
+}
