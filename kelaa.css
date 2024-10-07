@@ -61,7 +61,7 @@ box-shadow: 15px 15px 15px green(255, 0, 0, 1);
            
             text-align: center; /* Mengatur teks agar berada di tengah */
             width: 100%; /* Menetapkan lebar penuh */
-            font-size: 90px;
             margin: 0; /* Menghapus margin default */
             padding: 20px; /* Menambah padding jika diperlukan */
         }
+
