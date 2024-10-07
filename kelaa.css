@@ -44,34 +44,8 @@ cursor: pointer;
 background-color: green;
 box-shadow: 15px 15px 15px green(255, 0, 0, 1);
 }
-  .container {
-            display: flex;
-            flex-direction: column; /* Susun gambar secara kolom */
-            align-items: flex-start; /* Rata kiri */
-
- .row {
-            display: flex;
-            align-items: flex-start; /* Rata atas untuk baris gambar */
-        }
 
 
-.hai {
-  transform: rotate(13deg);
-  width: 160px;
-  height: 220px;
-  margin-top: 50px;
-  margin-left: 20px;
-  border: white solid 2px;
-}
-
-.haii {
-  transform: rotate(-3deg);
-  width: 160px;
-  height: 220px;
-  margin-top: 230px;
-  margin-left: 20px;
-  border: white solid 2px;
-}
 
 .hah {
   text-align:center;
