@@ -45,7 +45,10 @@ background-color: green;
 box-shadow: 15px 15px 15px green(255, 0, 0, 1);
 }
 
-
+.gambar1 {
+  width:1px;
+  height:5px;
+}
 
 .hah {
   text-align:center;
