@@ -52,7 +52,6 @@ box-shadow: 15px 15px 15px green(255, 0, 0, 1);
         }
      .halo {
             display: flex;
-            flex-direction: column; /* Susun gambar secara kolom */
             align-items: flex-end; /* Rata kiri */
      }
 
