@@ -58,6 +58,7 @@ box-shadow: 15px 15px 15px green(255, 0, 0, 1);
         }
 
  .tes {
+            font-size:30px;
             text-align: center; /* Mengatur teks agar berada di tengah */
             width: 100%; /* Menetapkan lebar penuh */
             margin: 0; /* Menghapus margin default */
