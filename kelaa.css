@@ -68,6 +68,15 @@ box-shadow: 15px 15px 15px green(255, 0, 0, 1);
   margin-left: 20px;
   border: white solid 2px;
 }
+
+.haiii {
+  transform: rotate(13deg);
+  width: 130px;
+  height: 220px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border: white solid 2px;
+}
 .hah {
   text-align:center;
 }
