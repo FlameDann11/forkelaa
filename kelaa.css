@@ -47,6 +47,7 @@ box-shadow: 15px 15px 15px green(255, 0, 0, 1);
 
 .hy {
   display:flex;
+  flex-direction:flex-start;
 
 }
 .gambar1 {
