@@ -9,7 +9,7 @@ body {
   background-position: center; /* Memusatkan gambar */
   margin: 0; /* Menghilangkan margin default */
   height: 100vh; /* Mengatur tinggi body sesuai tinggi viewport */
-  width: 100vh; /* Mengatur lebar body sesuai lebar viewport */
+  width: 100vw; /* Mengatur lebar body sesuai lebar viewport */
 }
 
 h1 {
