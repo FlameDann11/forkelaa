@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="kelaa2.css" rel="stylesheet">
+<link href="kelaa.css" rel="stylesheet">
 <title>KELAA :3</title>
 </head>
     <body>
 <header>
   <nav>
     <ul>
-      <li> <a href="lanjut.html" class="header-halaman" id="headerHalaman">Halaman</a></li>
+      <li> <a href="Ph.html" class="header-halaman" id="headerHalaman">Halaman</a></li>
             <li> <a id="headerAlbum">Album</a></li>
+            <li> <a href="PlayList.html">PlayList</a></li>
     </ul>
   </nav>
 </header>
@@ -19,7 +20,37 @@
       <center>
       <h1 class="dann">YOUR ALBUMS</h1>
   </center>   
-<script src="sweetalert2.all.min.js"></script>
+  
+  <div class="main-album-container">
+    <div class="main-album-list-169">
+      <img src="kelaa169.jpg" width="300px" height="auto" class="foto1">
+      <img src="kelaa1691.jpg" width="300px" height="auto" class="foto2">
+        <img src="cute.png" width="180px" height="300px" class="foto9">
+    </div>
+    <div class="main-album-list-916">
+      <img src="kelaa916.jpg" width="150px" height="auto" class="foto3">
+      
+      <img src="kelaa9161.jpg" width="150px" height="auto" class="foto4">
+      
+      <img src="kelaa9161c.jpg" width="140px" height="200px" class="foto5">
+      
+      <img src="kelaa9161c1.jpg" width="150px" height="auto" class="foto6">
+      
+      <img src="kelaa9161p.jpg" width="150px" height="auto" class="foto7">
+      
+      <img src="kelaa9161t.jpg" width="150px" height="auto" class="foto8">
+      
+      <img src="kelaashop.jpg" width="150px" height="auto" class="foto10">
+      
+      <img src="kelaashop2.jpg" width="150px" height="auto" class="foto11">
+      
+      <img src="kelaacross.jpg" width="150px" height="auto" class="foto12">
+      
+      <img src="kelaacross2.jpg" width="150px" height="auto" class="foto13">
+    </div>
+    <h2 class="h2-album">Mau Nambah Foto? Hubungi saya</h2>
+  </div>
+  <script src="dist/sweetalert2.all.min.js"></script>
   <script>
   document.getElementById('headerAlbum');
   
@@ -28,7 +59,10 @@
     Swal.fire({
       text: "kamu sudah berada di halaman tersebut",
       showConfirmButton: false,
-      time: 500
+      time: 500,
+      customClass: {
+    text: 'textinfo'
+  }
     });
     });
   
