@@ -12,25 +12,40 @@
     <ul>
       <li> <a class="header-halaman" id="headerHalaman">Halaman</a></li>
             <li> <a href="Album.html">Album</a></li>
+            <li> <a href="PlayList.html">PlayList</a></li>
     </ul>
   </nav>
 </header>
       <h6>© FlameDann</h6>
-        <center>
       <h1 class="dann">SELAMAT DATANG KELAA</h1>
+      <center>
       <button id="button">Klik Tombol ini</button>
       </center>
             <h2>Mikaila</h2>
-<p id="p-awal">Mikaila atau biasa di panggil kela adalah seorang gadis yang kelakuan nya sangat susah di tebak karena tingkah nya yang unik. Dia berbeda dengan yang lain ,mulai dari kehidupan nya hingga hal yang dia sukai"</p>
-<script src="sweetalert2.all.min.js"></script>
+<p id="p-awal">Mikaila atau biasa di panggil kela adalah seorang gadis yang kelakuan nya ke kanak" an karena tingkah nya yang unik. Dia berbeda dengan yang lain ,mulai dari kehidupan nya hingga hal yang dia sukai"</p>
+<script src="dist/sweetalert2.all.min.js"></script>
         <script>
         // Ambil elemen tombol berdasarkan ID
         Swal.fire({
-          title: "Happy Birtday",
-          text: "Selamat Ulang tahun Ya, Maap Kalau Kurang Bagus",
-          showConfirmButton: false
-        });
-
+  title: "Happy Birthday",
+  text: "Selamat Ulang Tahun yang ke 15",
+  showConfirmButton: false,
+  customClass: {
+    title: 'titlenya'
+  }
+}).then(() => {
+  return Swal.fire("Sehat Selalu");
+}).then(() => {
+  return Swal.fire("Panjang Umur");
+}).then(() => {
+  return Swal.fire("Makin Cantik");
+}).then(() => {
+  return Swal.fire({
+  title: "Makin tinggi",
+  text: "hehe",
+  showConfirmButton: false
+})
+});
     // Ambil elemen tombol berdasarkan ID
     const button = document.getElementById('button');
 
@@ -173,5 +188,7 @@ Swal.fire({
 });
 };
 </script>
+
+<p class="footer">© CopyRight By FlameDann 2023/2024</p>
     </body>
-    </html>
+</html>
