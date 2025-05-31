@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>K</title>
+  
+  <style>
+  
+  *{
+  }
+    body {
+      height: 100vh;
+      background: blue;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      align-items: center;
+      overflow: hidden;
+    }
+  
+  p {
+    font-size: 10px;
+  }
+  </style>
+</head>
+<body>
+  <div class="header">
+  <h1>For You</h1>
+  <p>Kamu Buka Web Ini Berarti Kamu Penasaran Pesan Tersebut. Apa yang membuat mu penasaran? aku begitu bersyukur kau masih ingin mencari tau. ( web ini akan terbuka jam 12 malam ini ). Ketika kamu membuka web ini dan telah membaca pesan tersebut. Tolong jangan balas apapun ya, cukup kenang jika memang kau ingin. Namu jika tidak ada aktivitas yang masuk di web kamu 14 hari berturut. Saya akan menutup nya dengan alasan kamu mungkin tidak menyukai nya. Jadi maaf jika kamu merasa risih  - FD</p>
+    
+   <p>i love u</p>
+  </div>
+</body>
+</html>
